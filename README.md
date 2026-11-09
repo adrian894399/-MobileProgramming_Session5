@@ -1,56 +1,36 @@
-# Welcome to your Expo app 👋
+# Tic Tac Toe - React Native (Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Tugas mata kuliah Pemrograman Mobile: permainan Tic Tac Toe dua pemain
+yang dibuat dengan React Native dan Expo.
 
-## Get started
+## Identitas
+- Nama: Adrian Akbar Firdaus
+- NIM: (41155050240017)
+- Kelas: (Informatika A1)
 
-1. Install dependencies
+## Fitur
+- Papan permainan 3x3
+- Giliran bergantian antara pemain X dan O
+- Deteksi pemenang atau hasil seri
+- Tombol untuk mengulang permainan
 
-   ```bash
+## Teknologi
+- React Native
+- Expo (SDK 58)
+- JavaScript
+
+## Cara Menjalankan
+1. Clone repositori:
+   git clone https://github.com/adrian894399/pemogramanmobileAdrian
+2. Masuk ke folder proyek, lalu install dependensi:
    npm install
-   ```
-
-2. Start the app
-
-   ```bash
+3. Jalankan aplikasi:
    npx expo start
-   ```
+4. Scan QR code dengan aplikasi Expo Go di HP, atau jalankan di emulator.
 
-In the output, you'll find options to open the app in a
+## Screenshot
+<img width="300" height="1000" alt="image" src="https://github.com/user-attachments/assets/ae8e05d3-5cef-4148-8cad-d38ed96d28b3" />
+<img width="300" height="1000" alt="image" src="https://github.com/user-attachments/assets/bf084489-95f7-4cb7-900f-a8acd9965317" />
+<img width="300" height="1000" alt="image" src="https://github.com/user-attachments/assets/bc9c9aa4-ec50-4900-a70b-6012e3fa8c3f" />
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
